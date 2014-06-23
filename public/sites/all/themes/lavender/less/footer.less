@@ -1,0 +1,68 @@
+// Insert your styling here.
+.footer {
+			background: @gray; 
+			color:		white;
+			margin-top:	0;
+	a {
+			color: 		white;
+			padding:	0;
+			margin:		0;
+			text-align: left;
+			&:hover {
+				background-color: none;
+				text-decoration: underline;
+			}
+	}
+	h3 {
+			color: 		white;
+			font-size: 	16px;
+			margin:		0 0 5px 0;
+			padding:	0;
+			text-align: left;
+	}
+	ul	{
+			margin:0 0 20px 0;
+			padding:0;
+		li {
+			list-style: none;
+			margin:0;
+			padding:0;
+			a:hover {
+				background-color: none;
+				text-decoration: underline;
+			}
+			span {
+				margin-right:	5px;
+			}
+		}
+	}
+	
+}
+#footer-contact {
+		margin-left:0px;
+		@media (min-width: @screen-md-min) {
+			margin-left:100px;
+		}
+		li {	
+			font-size: 14px;
+		@media (min-width: @screen-sm-min) {
+			font-size: 18px;
+			}
+			margin-bottom: 10px;
+		}
+	}
+
+.page-bottom {
+			margin-top:	20px;
+			padding:20px 0;
+	.footer-logo {
+			height:80px;
+		@media (min-width: @screen-sm-min) {
+			height:70px;
+			}	
+			
+	}
+}
+.not-front .page-bottom {
+			border-top:	1px solid @gray-lighter;
+			}

@@ -1,0 +1,409 @@
+// Insert your styling here.
+
+//Typography Overrides
+h1, .h1, h2, .h2, h3, .h3	{
+						color: 			@brand-purple;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+						color:			@brand-purple;
+}
+
+h1 {
+						font-size:		28px;
+						margin-bottom: 	10px;
+					@media (min-width: @screen-sm-min) {
+						font-size: 		36px;
+						}
+						padding:		0 10%;
+						text-align: 	center;
+}
+h2 {
+						font-size:		18px;
+						margin-top:		0;
+			@media (min-width: @screen-sm-min) {
+						margin-top:		10px;
+						font-size:		30px;
+						}
+}
+.front h2, .front h3, .front .content_row p {
+						text-align: 	center;
+						padding:		0 10%;
+}	
+
+.block-title {
+						text-align: center;
+}
+
+p {
+						color:		@gray;
+}
+
+cite 					{
+						color: 		@gray;
+						}
+.front cite 			{
+						color: 		white;
+}
+
+.lead {	
+						font-size: 	18px;
+}
+
+blockquote {
+						margin-bottom: 0;
+			p {
+						font-family:	@font-family-serif;
+						font-style: 	italic;
+						font-size: 		22px;
+						text-align: 	center;
+					
+						
+				small {
+						font-family: 	@font-family-sans-serif;
+						font-size:		14px;
+					&:before {
+						content: 		none;
+					}
+				}
+			}
+						
+}
+address {
+	p {					text-align: 	center;
+	}
+}
+
+//Element Overrides
+.bar-left {border-left: 1px @gray-light solid;}
+//
+//Jumbotron
+.jumbotron {
+						
+						background: url(../images/lavender_team.jpg) no-repeat left top; 
+						margin-bottom: 0;
+						padding:0;
+						width:100%;
+						height:300px;
+						margin-left:auto;
+						margin-right:auto;
+						
+						@media (min-width: @screen-sm-min) {
+							background: url(../images/lavender_team.jpg) no-repeat center top; 
+							width:800px;
+							height:auto;
+							
+						}
+						@media (min-width: @screen-md-min) {
+							width:100%;
+						}
+						
+			.container {
+						padding:0;
+						#block-block-8 {
+							margin:0 -25px;
+						}
+			}
+			#block-block-1 {
+						background: rgba(146,48,148, .7);
+						width:100%;
+						margin-top:20px;
+						padding-left:10px;
+						padding-right:10px;
+						padding-bottom:10px;
+						@media (min-width: @screen-sm-min) {
+						width:		560px;
+						padding: 0 5px 10px 30px;
+						margin:20px 0 230px -25px;
+						
+						}
+						@media (min-width: @screen-md-min) {
+						width:		620px;
+						}
+						h3, p {
+							color:white;
+							text-align: left;
+						}
+						h3 {
+							margin-left:0;
+							padding-left:0;
+						}
+						p {
+							font-size: 18px;
+						}
+						#jumbotron-text {
+							width:70%;
+						}
+						#jumbotron-button {
+							width:25%;
+							text-align: left;
+						}
+						
+			}
+}	
+.page-contact-page .jumbotron {
+						background: none;
+}
+
+
+//Rows on Homepage
+.content_row {
+						margin: 	@big-margin-tb;
+						padding:	@big-padding-tb;
+}
+
+.row_stripe {			
+						background: @row-stripe-bg;
+}
+
+.green_stripe {
+						background: @brand-success;
+						margin-bottom:0;
+						
+	h3, p {
+						color:white;
+	}
+}
+
+.purple_stripe {
+						background: @brand-purple;
+	h3, p {
+						color:		white;
+	}
+}
+
+.grey_stripe {
+						background: @gray-custom;
+						padding:	10px 0;
+}
+
+//
+.btn {
+						margin: 	@med-margin-tb;
+}
+
+.view-header {
+						margin-bottom:10px;
+}
+
+// Block Control
+#block-block-2 {
+						margin: 	@sml-margin-tb;
+						padding:	@sml-padding-tb;
+}
+#block-block-4 {
+						margin: 	@sml-margin-tb;
+}
+//
+.view-clearances, .view-recycle-hompage {
+	.views-row {
+						min-height:		auto;
+						margin-bottom:	10px;
+						@media (min-width: @screen-sm-min) {
+							min-height:		280px;
+							margin-bottom:	0;
+							}
+	.views-field-field-image {
+						height:		140px;
+						margin:		@center-margin;
+						width:		140px;
+						}
+	h4	{
+						text-align: center;
+	}
+					}
+	}
+
+.view-recycle-hompage {
+	h4	{
+						color: 		white;
+	}
+	
+}
+
+//Testimonial Page
+.page-testimonials {
+	.view-testimonials {
+		.views-row {
+							min-height:			auto;
+			@media (min-width: @screen-sm-min) {
+							min-height:		250px;
+							}
+			@media (min-width: @screen-md-min) {
+							height:			200px;
+							}
+			.views-field-field-price-roundel {
+							
+				.img-circle {
+							
+							margin:				0 auto;	
+							
+								}	
+			}
+			blockquote p {
+							font-size:			18px;
+			}
+		}
+	}
+}
+
+.img-circle {
+							background-color: 	@brand-purple;
+							color: 				white;
+							display: 			block;
+							font-size: 			26px;
+							height:				80px;
+							padding: 			20px 0;
+							text-align: 		center;
+							width:				80px;
+}	
+
+//Services Page
+.service-left {
+							width:				100%;
+			@media (min-width: @screen-sm-min) {
+							width:				350px;
+			}
+			@media (min-width: @screen-md-min) {
+							width:				550px;
+			}
+}
+.service-right {
+							width:				100%;
+			@media (min-width: @screen-sm-min) {
+							width:				360px;
+			}
+			@media (min-width: @screen-md-min) {
+							width:				360px;
+			}
+			.pull-right {
+				img {
+							margin-top:			20px;
+				}
+			}
+
+}
+.service-row {
+							margin-bottom: 		10px;
+}
+
+.roundal-price {		
+							z-index: 			1000;
+							position: 			absolute;
+}
+
+//about us page
+#about-map {
+							height:				300px;
+							width:				100%;
+}
+
+.view-man-team .views-field-field-photo img {
+							width: 				100%;
+							height:				auto;
+}
+
+//process
+.process-row {
+								margin-bottom: 		40px;
+	.process-content {
+								width:				100%;
+								
+		.process-left {			
+								width:				100%; 
+								
+				@media (min-width: @screen-sm-min) {
+								float: 				left;
+								width:				60%;
+							}
+							p {
+								margin-bottom:		10px;
+							}
+					}
+		.process-right {		
+								width:				100%; 
+				@media (min-width: @screen-sm-min) {
+								float: 				right;
+								width:				30%;
+							}
+					}
+	}
+}
+//Gallery
+.view-id-gallery .view-content .views-row img {
+				width:100%;
+				height:auto;
+				padding:5px;
+				border: 1px solid @gray-light;
+				margin-bottom:30px;
+}
+
+//Blog
+.region-sidebar-second {
+	h3 {text-align: left;}
+	ul {
+		padding-left:0;
+		margin:0;
+		li {
+				list-style: none;
+		}
+		ul {
+			padding-left:10px;
+		}
+	}
+}
+//contact
+.region-content .view-contact-addresses .view-content .views-row {
+		height:220px;
+}
+
+//Quote
+#node-2 {
+		margin:0 10px;
+		@media (min-width: @screen-sm-min) {
+		margin:0 15%;
+		}
+		@media (min-width: @screen-md-min) {
+		margin:0 25%;
+		}
+		.input-group-btn {
+			#edit-submitted-upload-a-pic-upload-button {
+				margin:0;
+			}
+		}
+		#edit-submitted-upload-a-pic-ajax-wrapper {
+			display: none;
+			@media (min-width: @screen-sm-min) {
+				display: inherit;
+			}
+			#edit-submitted-upload-a-pic-upload {
+				padding:0;
+			}
+			}
+		.captcha {margin-top:10px;}
+}
+
+//New review badges
+.review-badge {
+	width:100%;
+	float:left;
+	margin:0;
+	text-align: center;
+	padding:10px 0;
+	@media (min-width: @screen-sm-min) {
+		width:33.333%;
+		padding:0;
+	}
+}
+.badge_checkatrade {
+	padding-top:0;
+		@media (min-width: @screen-sm-min){
+			padding-top:90px;
+		}
+}
+.badge_review_live {
+	padding-top:0;
+		@media (min-width: @screen-sm-min){
+			padding-top:30px;
+		}
+}

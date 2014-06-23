@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://www.lavenderclearances.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://www.lavenderclearances.com/blog</loc><priority>0.9</priority></url>
+<url><loc>http://www.lavenderclearances.com/commercial</loc><priority>0.9</priority></url>
+<url><loc>http://www.lavenderclearances.com/contact-us</loc><priority>0.9</priority></url>
+<url><loc>http://www.lavenderclearances.com/gallery</loc><priority>0.9</priority></url>
+<url><loc>http://www.lavenderclearances.com/privacy-policy</loc><lastmod>2014-02-13T12:13Z</lastmod><changefreq>hourly</changefreq><priority>0.0</priority></url>
+<url><loc>http://www.lavenderclearances.com/about-lavender-clearances</loc><priority>0.9</priority></url>
+<url><loc>http://www.lavenderclearances.com/process</loc><priority>0.9</priority></url>
+<url><loc>http://www.lavenderclearances.com/residential</loc><priority>0.9</priority></url>
+<url><loc>http://www.lavenderclearances.com/testimonials</loc><priority>0.9</priority></url>
+</urlset>
